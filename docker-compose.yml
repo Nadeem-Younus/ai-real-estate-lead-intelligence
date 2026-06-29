@@ -1,0 +1,45 @@
+services:
+
+  app:
+    build: .
+    container_name: real-estate-app
+
+    ports:
+      - "8501:8501"
+
+    env_file:
+      - .env
+
+    depends_on:
+      - maps-mcp
+      - brevo-mcp
+
+  maps-mcp:
+    build: .
+    container_name: maps-mcp
+
+    command: >
+      uvicorn backend.mcp.servers.maps_server:app
+      --host 0.0.0.0
+      --port 9000
+
+    ports:
+      - "9000:9000"
+
+    env_file:
+      - .env
+
+  brevo-mcp:
+    build: .
+    container_name: brevo-mcp
+
+    command: >
+      uvicorn backend.mcp.servers.brevo_server:app
+      --host 0.0.0.0
+      --port 9001
+
+    ports:
+      - "9001:9001"
+
+    env_file:
+      - .env

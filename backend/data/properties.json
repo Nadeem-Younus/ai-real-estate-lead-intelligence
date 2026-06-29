@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Luxury Villa Islamabad",
+    "type": "Villa",
+    "location": "Islamabad",
+    "price": 25000000
+  },
+  {
+    "id": 2,
+    "name": "Family House Islamabad",
+    "type": "House",
+    "location": "Islamabad",
+    "price": 30000000
+  },
+  {
+    "id": 3,
+    "name": "Executive Apartment Islamabad",
+    "type": "Apartment",
+    "location": "Islamabad",
+    "price": 18000000
+  },
+  {
+    "id": 4,
+    "name": "Blue Area Office",
+    "type": "Office",
+    "location": "Islamabad",
+    "price": 28000000
+  },
+  {
+    "id": 5,
+    "name": "DHA Commercial Shop",
+    "type": "Shop",
+    "location": "Islamabad",
+    "price": 22000000
+  },
+  {
+    "id": 6,
+    "name": "Family Villa Rawalpindi",
+    "type": "Villa",
+    "location": "Rawalpindi",
+    "price": 32000000
+  },
+  {
+    "id": 7,
+    "name": "Family House Rawalpindi",
+    "type": "House",
+    "location": "Rawalpindi",
+    "price": 32000000
+  },
+  {
+    "id": 8,
+    "name": "Family House Lahore",
+    "type": "House",
+    "location": "Rawalpindi",
+    "price": 32000000
+  }
+]

@@ -1,0 +1,14 @@
+.venv
+**pycache**
+.pytest_cache
+.git
+.gitignore
+
+*.pyc
+*.pyo
+
+.env
+
+.streamlit
+
+.vscode
