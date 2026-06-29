@@ -153,6 +153,25 @@ Outputs:
 * Email subject
 * Email body
 
+## Run with Docker
+
+Prerequisites:
+* Docker Desktop
+
+Build and start:
+docker compose build --no-cache
+docker compose up
+
+Application URLs:
+Streamlit:
+http://localhost:8501
+
+Maps MCP:
+http://localhost:9000/docs
+
+Brevo MCP:
+http://localhost:9001/docs
+
 ## Future Enhancements
 
 * CRM integration
