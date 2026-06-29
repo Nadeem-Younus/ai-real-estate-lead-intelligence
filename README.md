@@ -95,6 +95,64 @@ Application URLs:
 6. User reviews and edits email.
 7. Brevo MCP Server sends the email.
 
+## Agent Prompt Design
+
+### Lead Agent
+
+Purpose:
+Analyze customer requirements and determine lead quality, priority, and reasoning.
+
+Inputs:
+
+* Customer name
+* Budget
+* Property type
+* Timeline
+
+Outputs:
+
+* Lead score
+* Priority level
+* Lead qualification rationale
+
+### Property Agent
+
+Purpose:
+Match customer requirements with available properties from the property database.
+
+Inputs:
+
+* Budget
+* Property type
+* Location
+
+Outputs:
+
+* Recommended properties
+
+### Market Agent
+
+Purpose:
+Analyze nearby amenities using Google Places through the Maps MCP Server.
+
+Outputs:
+
+* Schools
+* Hospitals
+* Parks
+* Shopping malls
+* Transit information
+
+### Follow-up Agent
+
+Purpose:
+Generate personalized customer communication and prepare email drafts.
+
+Outputs:
+
+* Email subject
+* Email body
+
 ## Future Enhancements
 
 * CRM integration
