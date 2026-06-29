@@ -37,63 +37,6 @@ MCP Servers:
 * Maps MCP Server
 * Brevo MCP Server
 
-## Architecture Diagram
-
-## Architecture Diagram
-
-┌─────────────────────────┐
-│         User            │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│      Streamlit UI       │
-│ (frontend/streamlit)    │
-└────────────┬────────────┘
-             │
-             ▼
-┌─────────────────────────┐
-│     RealEstateCrew      │
-│   CrewAI Orchestrator   │
-└────────────┬────────────┘
-             │
- ┌───────────┼───────────┐
- │           │           │
- ▼           ▼           ▼
-┌────────┐ ┌────────┐ ┌────────────┐
-│ Lead   │ │Property│ │ Market     │
-│ Agent  │ │ Agent  │ │ Agent      │
-└────┬───┘ └────┬───┘ └─────┬──────┘
-     │          │           │
-     │          │           ▼
-     │          │   ┌───────────────┐
-     │          │   │ Maps MCP      │
-     │          │   │ Server        │
-     │          │   └───────┬───────┘
-     │          │           │
-     │          │           ▼
-     │          │   Google Places API
-     │          │
-     │          ▼
-     │   properties.json
-     │
-     ▼
-┌───────────────────┐
-│ Follow-up Agent   │
-└─────────┬─────────┘
-          │
-          ▼
-┌───────────────────┐
-│ Brevo MCP Server  │
-└─────────┬─────────┘
-          │
-          ▼
-      Brevo API
-          │
-          ▼
-   Customer Email
-
-
 ## Tech Stack
 
 * Python 3.11
