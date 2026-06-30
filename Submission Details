@@ -1,0 +1,45 @@
+### AI Real Estate Lead Intelligene Subission Details:
+
+Student:
+Muhammad Nadeem Younus
+
+# GitHub Repository:
+https://github.com/Nadeem-Younus/ai-real-estate-lead-intelligence
+
+RADME.md with all details about Docker
+
+# Demo Video:
+https://youtu.be/uCek6nD6G6g
+
+# Live URL / Docker Instructions:
+This project is Dockerized.
+
+Requirements:
+•	Docker Desktop
+•	Docker Compose
+
+Run:
+docker compose build --no-cache
+docker compose up
+
+# Application URLs:
+
+Streamlit UI:
+http://localhost:8501
+
+Maps MCP API:
+http://localhost:9000/docs
+
+Brevo MCP API:
+http://localhost:9001/docs
+
+# Project Summary:
+AI-powered Real Estate Lead Intelligence platform using CrewAI multi-agent architecture, MCP servers, Google Places API, Brevo Email API, Langfuse observability, FastAPI, Streamlit, and Docker.
+
+Features:
+•	Lead qualification
+•	Property recommendations
+•	Neighborhood intelligence
+•	AI-generated follow-up emails
+•	Human-in-the-loop email review
+•	Automated email delivery
